@@ -1,0 +1,21 @@
+/*TEMA CLARO*/
+/*
+Gris #F3F8FF
+Rosa #E26EE5
+Morado #49108B
+*/
+.b-l{
+    background-color: #F3F8FF;
+    color: #49108B;
+}
+
+/*TEMA OSCURO*/
+/*
+Negro #252525
+Morado #6930C3
+Verde #80FFDB
+*/
+.b-d{
+    background-color: #252525;
+    color: #80FFDB;
+}
