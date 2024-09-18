@@ -4,10 +4,7 @@ Gris #F3F8FF
 Rosa #E26EE5
 Morado #49108B
 */
-.b-l{
-    background-color: #F3F8FF;
-    color: #49108B;
-}
+
 
 /*TEMA OSCURO*/
 /*
@@ -15,7 +12,11 @@ Negro #252525
 Morado #6930C3
 Verde #80FFDB
 */
-.b-d{
-    background-color: #252525;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(37, 37, 37, 0.8), rgba(37, 37, 37, 0.8)),
+        url('IMG/FONDO.jpg') no-repeat center center/cover;
     color: #80FFDB;
 }
