@@ -4,19 +4,107 @@ Gris #F3F8FF
 Rosa #E26EE5
 Morado #49108B
 */
-
-
 /*TEMA OSCURO*/
 /*
 Negro #252525
 Morado #6930C3
 Verde #80FFDB
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Oswald:wght@200..700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    font-family: "Gowun Batang", serif !important;
+    font-weight: 400;
+    font-style: normal;
     background: linear-gradient(rgba(37, 37, 37, 0.8), rgba(37, 37, 37, 0.8)),
         url('IMG/FONDO.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #6930C3;
+}
+p{
+    font-size: 50px;
     color: #80FFDB;
+}
+footer{
+    margin-top: 60px auto;
+}
+/*CONTENIDO*/
+.contenedor{
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.img-perfil{
+    margin: 30% auto;
+    height: 50vh;
+    border: 5px solid #6930C3;
+    border-radius: 40px;
+}
+.carousel{
+    max-height: 700px;
+    width: 1400px;
+    margin: 15px auto 100px auto;
+}
+.img-car{
+    border-radius: 60px;
+}
+.card{
+    margin: 10px auto;
+    background-color: #252525;
+    border: 3px solid #80FFDB;
+    border-radius: 10px;
+}
+.card-img-top{
+    height: 550px;
+    width: auto;
+}
+.card-text{
+    font-size: 20px;
+}
+/*DIVISOR*/
+.divisor{
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.divisor::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 10px;
+    background-color: #6930C3;
+    bottom: 0;
+    left: calc(50% - 150px);
+    border-radius: 5px;
+}
+.divisor::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #80FFDB;
+    left: calc(50% - 20px);
+    bottom: -5px;
+    border-radius: 5px;
+}
+/*FOOTER*/
+footer{
+    text-align: center;
+    margin-top: 150px;
+}
+.img-red{
+    height: 100px;
+    width: auto;
+    margin: 20px 60px;
 }
